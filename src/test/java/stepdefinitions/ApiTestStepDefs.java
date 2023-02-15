@@ -15,14 +15,11 @@ public class ApiTestStepDefs {
 
         response = given().when().get(endPoint);
         response.prettyPrint();
-
     }
-
     @Then("HTTP status code should be {int}")
     public void http_status_code_should_be(Integer statusCode) {
 
         assertEquals(200, response.getStatusCode());
-
     }
 }
 
