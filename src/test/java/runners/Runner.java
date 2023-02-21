@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features",
         dryRun = false,
         glue = "stepdefinitions",
-        tags = "@DrAppt"
+        tags = "@Doctor_Appt"
 
 )
 

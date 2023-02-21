@@ -1,9 +1,7 @@
 package stepdefinitions;
 
-
 import io.cucumber.java.en.*;
 import io.restassured.response.Response;
-
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
